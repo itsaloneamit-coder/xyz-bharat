@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Bharat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ffffff;
+            text-align: center;
+            color: #000000;
+        }
+        header {
+            background: #000000;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: #ffffff;
+            color: #000000;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background: #000000;
+            color: #ffffff;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="XYZ Bharat Logo" style="height:60px; display:block; margin:0 auto 10px;">
+        <h1>XYZ Bharat</h1>
+        <nav>
+            <a href="#home">मुख्य पेज</a>
+            <a href="#current">समाचार</a>
+            <a href="#motivation">प्रेरणा</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>मुख्य पेज</h2>
+        <p>यह XYZ Bharat की आधिकारिक वेबसाइट है। यहाँ आपको रोज़ाना के ताज़ा समाचार और प्रेरणादायक कथन मिलेंगे।</p>
+    </section>
+
+    <section id="current">
+        <h2>समाचार</h2>
+        <p>ताज़ा घटनाएँ और करंट अफेयर्स यहाँ अपडेट किए जाएँगे।</p>
+    </section>
+
+    <section id="motivation">
+        <h2>प्रेरणा</h2>
+        <p>"सपने वे नहीं जो नींद में आते हैं, सपने वे हैं जो आपको सोने नहीं देते।"</p>
+    </section>
+
+    <footer>
+        <p>© 2025 XYZ Bharat | बनाए गया आपके लिए</p>
+    </footer>
+</body>
+</html>
